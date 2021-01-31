@@ -1,0 +1,55 @@
+* {
+	font-family: 'Fira Code', monospace;
+}
+body,
+html {
+	background-color: black;
+}
+body {
+	padding: 5% 17%;
+}
+.navbar-brand {
+	display: flex;
+	padding: 0 10% 0 1%;
+	/* border: 1px solid green; */
+}
+.navbar .padding_space {
+	height: 100%;
+	width: 100%;
+}
+.navbar-brand img {
+	padding-right: 5%;
+}
+.navbar-brand h2 {
+	padding-right: 5%;
+	text-align: center;
+	margin-top: 4%;
+}
+.nav-item {
+	padding: 0;
+	margin: 0;
+}
+.nav-item:hover {
+	border: 1px dashed #197609;
+	letter-spacing: 1px;
+}
+.nav-item h3 {
+	font-size: small;
+}
+.home_banner {
+	display: flex;
+}
+.home_banner .col-10 {
+	display: flex;
+}
+.home_banner .col-10 img {
+	padding: 1%;
+	border: #197609 solid 3px;
+	justify-content: center;
+	align-items: center;
+}
+.home_banner .col-1 {
+	/* height: ; */
+	width: 100%;
+	border-bottom: #197609 solid 3px;
+}
