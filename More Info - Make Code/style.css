@@ -7,6 +7,8 @@ html {
 }
 body {
 	padding: 5% 17%;
+	display: flex;
+	flex-direction: column;
 }
 .navbar-brand {
 	display: flex;
@@ -38,18 +40,48 @@ body {
 }
 .home_banner {
 	display: flex;
+	flex-direction: row;
 }
 .home_banner .col-10 {
+	margin: 0;
+	padding: 0;
 	display: flex;
 }
 .home_banner .col-10 img {
+	margin: 0;
 	padding: 1%;
 	border: #197609 solid 3px;
 	justify-content: center;
 	align-items: center;
 }
 .home_banner .col-1 {
-	/* height: ; */
+	margin: 0;
+	/* height: 100%; */
 	width: 100%;
-	border-bottom: #197609 solid 3px;
+	border: #197609 solid 3px;
+}
+.section {
+	border: #197609 3px solid;
+	margin: 0 10%;
+	padding: 5%;
+	text-align: center;
+}
+.requirements a {
+	text-decoration: none;
+	color: white;
+}
+.empty-space {
+	margin-left: 10%;
+	padding: 5%;
+	width: 80%;
+	height: 100%;
+	/* border: blue solid 1px; */
+}
+.information + .empty-space {
+	border-left: #197609 solid 3px;
+	margin-left: 15%;
+}
+.Objective + .empty-space {
+	border-right: #197609 solid 3px;
+	width: 75%;
 }
