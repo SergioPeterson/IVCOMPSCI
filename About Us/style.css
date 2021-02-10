@@ -55,8 +55,53 @@ body {
 .section {
 	border: #197609 3px solid;
 	padding: 5% 3%;
-	margin: 0 3%;
 	text-align: center;
+}
+.section p {
+	font-size: small;
+}
+.section h2 {
+	font-size: x-large;
+}
+.yaneizy {
+	display: flex;
+}
+.yaneizy .col-7 {
+	display: flex;
+}
+.yaneizy .col-7 p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.esme {
+	display: flex;
+}
+.esme .col-7 {
+	display: flex;
+}
+.esme .col-7 p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.col-4 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.col-4 .section {
+	height: 100%;
+	width: 100%;
+}
+.col-4 .section {
+	padding: 10%;
+}
+.section img {
+	margin: 5% 0;
+}
+.col-4 .section img {
+	margin: 7% 0;
 }
 .requirements a {
 	text-decoration: none;
