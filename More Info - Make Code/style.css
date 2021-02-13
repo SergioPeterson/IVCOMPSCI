@@ -63,6 +63,9 @@ body {
 	height: 0%;
 	border: #197609 solid 1px;
 }
+.parter {
+	display: flex;
+}
 .section {
 	border: #197609 3px solid;
 	margin: 0 10%;
