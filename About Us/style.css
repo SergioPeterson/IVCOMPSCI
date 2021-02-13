@@ -53,15 +53,28 @@ body {
 	border: #197609 solid 1px;
 }
 .section {
-	border: #197609 3px solid;
 	padding: 5% 3%;
 	text-align: center;
+}
+.section img {
+	margin: 0;
+	border: #197609 4px solid;
 }
 .section p {
 	font-size: small;
 }
 .section h2 {
 	font-size: x-large;
+	padding: 2% 0;
+	/* border: blue solid 1px; */
+}
+.yaneizy .overlap {
+	background-image: url(../Img/organizer.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.yaneizy .overlap h2 {
+	padding-top: 6%;
 }
 .yaneizy {
 	display: flex;
@@ -85,6 +98,14 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.esme .overlap {
+	background-image: url(../Img/publicrelations.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.esme .overlap h2 {
+	padding-top: 6%;
+}
 .col-4 {
 	height: 100%;
 	width: 100%;
@@ -98,7 +119,7 @@ body {
 	padding: 10%;
 }
 .section img {
-	margin: 5% 0;
+	margin: 2% 0;
 }
 .col-4 .section img {
 	margin: 7% 0;
@@ -106,6 +127,21 @@ body {
 .requirements a {
 	text-decoration: none;
 	color: white;
+}
+.keyvn .overlap,
+.brito .overlap,
+.peterson .overlap {
+	background-image: url(../Img/mentor.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 1%;
+	/* border: blue solid 1px; */
+}
+.keyvn .overlap h2,
+.brito .overlap h2,
+.peterson .overlap h2 {
+	/* border: blue solid 1px; */
+	margin-top: 15%;
 }
 .empty-space {
 	margin-left: 10%;
