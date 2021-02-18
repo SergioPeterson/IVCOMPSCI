@@ -1,0 +1,160 @@
+* {
+	font-family: 'Fira Code', monospace;
+	cursor: url("../Img/curor.cur"), auto;
+}
+body,
+html {
+	background-color: black;
+	color: lightgray;
+}
+body {
+	padding: 5% 17%;
+	display: flex;
+	flex-direction: column;
+}
+.navbar-brand {
+	display: flex;
+	padding: 0 10% 0 1%;
+	/* border: 1px solid green; */
+}
+.navbar .padding_space {
+	height: 100%;
+	width: 100%;
+}
+.navbar-brand img {
+	padding-right: 5%;
+}
+.navbar-brand h2 {
+	padding-right: 5%;
+	text-align: center;
+	margin-top: 4%;
+}
+.nav-item {
+	padding: 0;
+	margin: 0;
+}
+.nav-item:hover {
+	border: 1px dashed #197609;
+	letter-spacing: 1px;
+}
+.nav-item h3 {
+	color: lightgray;
+	font-size: small;
+}
+.home_banner {
+	display: flex;
+	flex-direction: row;
+}
+.home_banner .col-8 {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	height: 100%;
+}
+.home_banner .col-8 img {
+	/* margin: 10% 0 10% 0; */
+	padding: 2% 4%;
+	border: #197609 solid 3px;
+	justify-content: center;
+	align-items: center;
+}
+.home_banner .col-2 {
+	margin-top: 13%;
+	height: 0%;
+	border: #197609 solid 1px;
+}
+.section {
+	border: #197609 3px solid;
+	margin: 0 10%;
+	padding: 5%;
+	text-align: center;
+}
+.section p a {
+	text-decoration: none;
+	color: #197609;
+}
+.whatsnew .overlap {
+	background-image: url(../Img/updates.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.whatsnew .overlap h2 {
+	padding-top: 6%;
+}
+.schedule .overlap {
+	background-image: url(../Img/countdown.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.schedule .overlap h2 {
+	padding-top: 6%;
+}
+.info .overlap {
+	background-image: url(../Img/competition.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.info .overlap h2 {
+	padding-top: 6%;
+}
+.team .overlap {
+	background-image: url(../Img/us.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.team .overlap h2 {
+	padding-top: 6%;
+}
+.why .overlap {
+	background-image: url(../Img/mission.PNG);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.why .overlap h2 {
+	padding-top: 6%;
+}
+.requirements a {
+	text-decoration: none;
+	color: white;
+}
+.divider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.empty-space {
+	margin-left: 10%;
+	padding: 5%;
+	width: 80%;
+	height: 100%;
+	/* border: blue solid 1px; */
+}
+.information + .empty-space {
+	border-left: #197609 solid 3px;
+	margin-left: 15%;
+}
+.Objective + .empty-space {
+	border-right: #197609 solid 3px;
+	width: 75%;
+}
+.footer {
+	padding: 5% 5% 0 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	border-top: #197609 solid 3px;
+}
+.footer .logos a {
+	padding: 0 3%;
+}
+.fab,
+.fas {
+	color: #197609;
+	font-size: larger;
+}
+.footer .name a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
