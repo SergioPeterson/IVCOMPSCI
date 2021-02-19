@@ -1,7 +1,6 @@
 * {
 	font-family: 'Fira Code', monospace;
 	cursor: url("../Img/curor.cur"), auto;
-	/* CHANGE */
 	scrollbar-color: #197609 black;
 	scrollbar-width: thin;
 }
@@ -18,7 +17,6 @@ body {
 .navbar-brand {
 	display: flex;
 	padding: 0 10% 0 1%;
-	/* border: 1px solid green; */
 }
 .navbar .padding_space {
 	height: 100%;
@@ -33,8 +31,6 @@ body {
 	margin-top: 4%;
 }
 .nav-item {
-	/* CHANGE FROM 0 TO 1 */
-	padding: 2% 4%;
 	margin: 0;
 }
 .nav-item:hover {
@@ -56,7 +52,6 @@ body {
 	height: 100%;
 }
 .home_banner .col-8 img {
-	/* margin: 10% 0 10% 0; */
 	padding: 2% 4%;
 	border: #197609 solid 3px;
 	justify-content: center;
@@ -78,26 +73,25 @@ body {
 	color: #197609;
 }
 .whatsnew .overlap {
+	width: 100%;
+	height: 100%;
 	background-image: url(../Img/updates.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* CHANGE  */
-	background-position: 50% 50%;
+	background-position: 50%;
 }
 .whatsnew .overlap h2 {
-	/* CHANGE  */
 	padding-top: 6%;
 	font-size: 250%;
 }
+
 .schedule .overlap {
 	background-image: url(../Img/countdown.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* CHANGE  */
 	background-position: 50% 50%;
 }
 .schedule .overlap h2 {
-	/* CHANGE  */
 	padding-top: 6%;
 	font-size: 250%;
 }
@@ -105,11 +99,9 @@ body {
 	background-image: url(../Img/competition.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* CHANGE  */
 	background-position: 50% 50%;
 }
 .info .overlap h2 {
-	/* CHANGE  */
 	padding-top: 6%;
 	font-size: 250%;
 }
@@ -117,11 +109,9 @@ body {
 	background-image: url(../Img/us.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* CHANGE  */
 	background-position: 50% 50%;
 }
 .team .overlap h2 {
-	/* CHANGE  */
 	padding-top: 6%;
 	font-size: 250%;
 }
@@ -129,11 +119,9 @@ body {
 	background-image: url(../Img/mission.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* CHANGE  */
 	background-position: 50% 50%;
 }
 .why .overlap h2 {
-	/* CHANGE  */
 	padding-top: 6%;
 	font-size: 250%;
 }
@@ -152,6 +140,14 @@ body {
 	width: 80%;
 	height: 100%;
 }
+
+/* CHANAGE */
+.two {
+	margin-left: 20%;
+	width: 70%;
+	border-left: #197609 3px solid;
+}
+
 .information + .empty-space {
 	border-left: #197609 solid 3px;
 	margin-left: 15%;
