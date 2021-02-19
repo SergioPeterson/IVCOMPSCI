@@ -58,9 +58,14 @@ body {
 	align-items: center;
 }
 .home_banner .col-2 {
-	margin-top: 13%;
 	height: 0%;
 	border: #197609 solid 1px;
+}
+.home_banner .left {
+	margin-top: 6%;
+}
+.home_banner .right {
+	margin-top: 19%;
 }
 .section {
 	border: #197609 3px solid;
@@ -147,7 +152,21 @@ body {
 	width: 70%;
 	border-left: #197609 3px solid;
 }
+.four {
+	margin-left: 50%;
+	width: 50%;
+	border-left: #197609 3px solid;
+}
 
+.five {
+	margin-left: 15%;
+	width: 70%;
+	border-left: #197609 3px solid;
+	border-right: #197609 3px solid;
+}
+.timers p {
+	font-size: xx-large;
+}
 .information + .empty-space {
 	border-left: #197609 solid 3px;
 	margin-left: 15%;
