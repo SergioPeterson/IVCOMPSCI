@@ -1,6 +1,7 @@
 * {
 	font-family: 'Fira Code', monospace;
 	cursor: url("../Img/curor.cur"), auto;
+	/* CHANGE */
 	scrollbar-color: #197609 black;
 	scrollbar-width: thin;
 }
@@ -32,7 +33,8 @@ body {
 	margin-top: 4%;
 }
 .nav-item {
-	padding: 0;
+	/* CHANGE FROM 0 TO 1 */
+	padding: 2% 4%;
 	margin: 0;
 }
 .nav-item:hover {
@@ -78,42 +80,62 @@ body {
 .whatsnew .overlap {
 	background-image: url(../Img/updates.PNG);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
+	/* CHANGE  */
+	background-position: 50% 50%;
 }
 .whatsnew .overlap h2 {
-	padding-top: 6%;
+	/* CHANGE  */
+	padding-top: 7%;
+	font-size: 300%;
 }
 .schedule .overlap {
 	background-image: url(../Img/countdown.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	/* CHANGE  */
+	background-position: 50% 50%;
 }
 .schedule .overlap h2 {
-	padding-top: 6%;
+	/* CHANGE  */
+	padding-top: 7%;
+	font-size: 300%;
 }
 .info .overlap {
 	background-image: url(../Img/competition.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	/* CHANGE  */
+	background-position: 50% 50%;
 }
 .info .overlap h2 {
-	padding-top: 6%;
+	/* CHANGE  */
+	padding-top: 7%;
+	font-size: 300%;
 }
 .team .overlap {
 	background-image: url(../Img/us.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	/* CHANGE  */
+	background-position: 50% 50%;
 }
 .team .overlap h2 {
-	padding-top: 6%;
+	/* CHANGE  */
+	padding-top: 7%;
+	font-size: 300%;
 }
 .why .overlap {
 	background-image: url(../Img/mission.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	/* CHANGE  */
+	background-position: 50% 50%;
 }
 .why .overlap h2 {
-	padding-top: 6%;
+	/* CHANGE  */
+	padding-top: 7%;
+	font-size: 300%;
 }
 .requirements a {
 	text-decoration: none;
@@ -129,7 +151,6 @@ body {
 	padding: 5%;
 	width: 80%;
 	height: 100%;
-	/* border: blue solid 1px; */
 }
 .information + .empty-space {
 	border-left: #197609 solid 3px;
