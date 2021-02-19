@@ -80,6 +80,11 @@ body {
 	height: 100%;
 	/* border: blue solid 1px; */
 }
+.two {
+	margin-left: 50%;
+	width: 50%;
+	border-left: #197609 3px solid;
+}
 .information + .empty-space {
 	border-left: #197609 solid 3px;
 	margin-left: 15%;
