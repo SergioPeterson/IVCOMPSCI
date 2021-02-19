@@ -86,8 +86,8 @@ body {
 }
 .whatsnew .overlap h2 {
 	/* CHANGE  */
-	padding-top: 7%;
-	font-size: 300%;
+	padding-top: 6%;
+	font-size: 250%;
 }
 .schedule .overlap {
 	background-image: url(../Img/countdown.PNG);
@@ -98,8 +98,8 @@ body {
 }
 .schedule .overlap h2 {
 	/* CHANGE  */
-	padding-top: 7%;
-	font-size: 300%;
+	padding-top: 6%;
+	font-size: 250%;
 }
 .info .overlap {
 	background-image: url(../Img/competition.PNG);
@@ -110,8 +110,8 @@ body {
 }
 .info .overlap h2 {
 	/* CHANGE  */
-	padding-top: 7%;
-	font-size: 300%;
+	padding-top: 6%;
+	font-size: 250%;
 }
 .team .overlap {
 	background-image: url(../Img/us.PNG);
@@ -122,8 +122,8 @@ body {
 }
 .team .overlap h2 {
 	/* CHANGE  */
-	padding-top: 7%;
-	font-size: 300%;
+	padding-top: 6%;
+	font-size: 250%;
 }
 .why .overlap {
 	background-image: url(../Img/mission.PNG);
@@ -134,8 +134,8 @@ body {
 }
 .why .overlap h2 {
 	/* CHANGE  */
-	padding-top: 7%;
-	font-size: 300%;
+	padding-top: 6%;
+	font-size: 250%;
 }
 .requirements a {
 	text-decoration: none;
