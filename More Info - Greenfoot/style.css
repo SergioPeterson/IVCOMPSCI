@@ -73,25 +73,31 @@ body {
 	background-image: url(../Img/greenfoot.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 50%;
 }
 .greenfoot .overlap h2 {
 	padding-top: 6%;
+	font-size: 250%;
 }
 .overall .overlap {
 	background-image: url(../Img/overview.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 50%;
 }
 .overall .overlap h2 {
 	padding-top: 6%;
+	font-size: 250%;
 }
 .require .overlap {
 	background-image: url(../Img/rules.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 50%;
 }
 .require .overlap h2 {
 	padding-top: 6%;
+	font-size: 250%;
 }
 .requirements a {
 	text-decoration: none;

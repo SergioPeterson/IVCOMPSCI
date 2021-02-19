@@ -88,17 +88,21 @@ body {
 	background-image: url(../Img/covid.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 50%;
 }
 .effects .overlap h2 {
 	padding-top: 6%;
+	font-size: 250%;
 }
 .why .overlap {
 	background-image: url(../Img/mission.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 50%;
 }
 .why .overlap h2 {
 	padding-top: 6%;
+	font-size: 250%;
 }
 .Objective + .empty-space {
 	border-right: #197609 solid 3px;

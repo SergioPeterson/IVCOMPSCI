@@ -74,11 +74,12 @@ body {
 	background-image: url(../Img/contact.PNG);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 50%;
 }
 .contact .overlap h2,
 .contactm .overlap h2 {
 	padding-top: 6%;
-}
+	font-size: 250%;}
 .requirements a {
 	text-decoration: none;
 	color: white;
