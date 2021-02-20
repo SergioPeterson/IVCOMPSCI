@@ -1,6 +1,6 @@
 const workshopDate = new Date("March 20, 2021 11:00:00").getTime();
-const deadlineDate = new Date("April 25, 2021 23:59:59").getTime();
-const ceremonyDate = new Date("May 01, 2021 09:00:00").getTime();
+const deadlineDate = new Date("June 11, 2021 00:00:00").getTime();
+const ceremonyDate = new Date("June 18, 2021 14:00:00").getTime();
 
 
 var x = setInterval(function(){
