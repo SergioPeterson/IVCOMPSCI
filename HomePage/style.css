@@ -1,6 +1,6 @@
 * {
 	font-family: 'Fira Code', monospace;
-	cursor: url("../Img/curor.cur"), auto;
+	cursor: url("../Img/curor.cur"), default;
 	scrollbar-color: #197609 black;
 	scrollbar-width: thin;
 }
