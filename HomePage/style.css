@@ -254,4 +254,18 @@ body {
 	body {
 		padding: 5% 0;
 	}
+	.section p {
+		font-size: x-small;
+	}
+	.timers p {
+		font-size: small;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.section .overlap h2 {
+		font-size: medium;
+	}
+	.timers p {
+		font-size: x-small;
+	}
 }
