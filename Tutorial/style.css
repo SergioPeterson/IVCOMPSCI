@@ -132,6 +132,14 @@ body {
 	letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 1450px) {
+	.timers p {
+		font-size: x-large;
+	}
+	.section .overlap h2 {
+		font-size: xx-large;
+	}
+}
 @media only screen and (max-width: 1400px) {
 	.nav-link img {
 		width: 50px;
@@ -143,21 +151,54 @@ body {
 }
 
 @media only screen and (max-width: 1150px) {
+	body {
+		padding: 5% 10%;
+	}
 	.nav-link img {
 		width: 45px;
 		height: 35px;
 	}
 	.nav-link h3 {
 		font-size: xx-small;
+	}
+	.section .overlap h2 {
+		font-size: x-large;
+	}
+	.section p {
+		font-size: medium;
+	}
+	.timers p {
+		font-size: large;
 	}
 }
 
-@media only screen and (max-width: 1150px) {
-	.nav-link img {
-		width: 45px;
-		height: 35px;
+@media only screen and (max-width: 1000px) {
+	.section .overlap h2 {
+		font-size: large;
 	}
-	.nav-link h3 {
-		font-size: xx-small;
+	.section p {
+		font-size: small;
+	}
+	.timers p {
+		font-size: 95%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	body {
+		padding: 5% 0;
+	}
+	.section p {
+		font-size: x-small;
+	}
+	.timers p {
+		font-size: small;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.section .overlap h2 {
+		font-size: medium;
+	}
+	.timers p {
+		font-size: x-small;
 	}
 }

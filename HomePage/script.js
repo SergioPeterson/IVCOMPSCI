@@ -1,7 +1,19 @@
 const workshopDate = new Date("March 20, 2021 11:00:00").getTime();
 const deadlineDate = new Date("June 11, 2021 00:00:00").getTime();
 const ceremonyDate = new Date("June 18, 2021 14:00:00").getTime();
+var span = document.getElementsByClassName("close")[0];
+var modal = document.getElementById("myModal");
 
+window.onload = function(){
+  setTimeout(function(){
+    modal.style.display = "block";
+  }, 1500);
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
 var x = setInterval(function(){
     countdown(workshopDate, "workshopTimer");
